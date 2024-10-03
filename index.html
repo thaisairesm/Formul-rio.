@@ -1,0 +1,128 @@
+   <!DOCTYPE html>
+   <html lang="pt.br">
+   <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+   </head>
+   <body>
+    
+     <h1>Formulário</h1>
+     
+
+    <form action="#" method="post">
+
+        <label for="nome"> Nome: </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+        
+        
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+        
+        
+
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+
+        
+
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id="idade" placeholder="Digite sua idade" min="18" max="100" class="small-input">
+
+        
+
+        <label for="website">Website:</label>
+        <input type="url" name="website" id="website" placeholder="https://">
+
+        
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="(xx) xxxxx-xxxx">
+
+        
+
+        <label for="termos">Aceito os Termos:</label>
+        <input type="checkbox" name="termos" id="termos">
+
+        
+
+        <label for="genero">Genero:</label>
+        
+        <input type="radio" name="genero" id="masculino" value="masculino" class="small-input" >
+        <label for="masculino"class="inline-label">Masculino</label>
+
+        <input type="radio" id="feminino" name="genero"  value="feminino" class="small-input">
+        
+        <label for="feminino" class="inline-label">Feminino</label> 
+
+        
+
+        <input type="radio" name="genero" id="outro" value="outro" class="small-input">
+        <label for="outro" class="inline-label">Outro</label>
+         
+        
+
+        <label for="data-nascimento">Data de Nascimento:</label>
+        <input type="date" name="data-nascimento" id="data-nascimento">
+
+        
+
+        <label for="cor-favorita">Cor Favorita:</label>
+        <input type="color" name="cor-favorita" id="cor-favorita">
+
+        
+
+        <label for="satisfacao">Satisfação (0 a 10):</label>
+        <input type="range" name="satisfacao" id="satisfacao" min="0" max="10">
+
+        
+
+        <label for="comentarios">Comentários:</label> <br>
+        <textarea name="comentarios" id="comentarios" rows="4" placeholder="Escreva seu comentário"></textarea>
+
+        
+
+        <label for="pais">País</label>
+
+        <select name="pais" id="pais">
+           <option value="brasil">Brasil</option>
+           <option value="china">China</option>
+           <option value="eua">Estados Unidos</option>
+           <option value="canada">Canadá</option>
+           <option value="mexico">México</option>
+        </select>
+
+        
+
+        <label for="arquivo">Carregar Arquivo:</label>
+        <input type="file" name="arquivo" id="arquivo">
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+
+        <footer><p>Todos os direitos reservados &copy; |Thais Aires</p></footer>
+
+
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+   </body>
+   </html>                                                               
